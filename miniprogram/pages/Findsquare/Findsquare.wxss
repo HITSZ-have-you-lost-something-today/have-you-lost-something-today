@@ -1,0 +1,99 @@
+/* pages/Findsquare/Findsquare.wxss */
+
+@import"../bottom_menu/bottom_menu.wxss";
+
+.roll{
+  width: 100%;
+  height: 66%;
+  left: 0rpx;
+  right: 0rpx;
+  top:25%;
+  position: absolute;
+}
+
+.largebox{
+  width: 90%;
+  height: 150rpx;
+  left: 5%;
+  right: 5%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 5rpx;
+  border-bottom: 20rpx solid gray;
+  
+
+}
+
+.firstblock{
+  width: 25%;
+  height: 100%;
+}
+
+.boximage{
+  width: 150rpx;
+  height: 100%;
+  border-radius: 0rpx;
+}
+
+.secondblock{
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxtext{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 15rpx;
+}
+
+.headline{
+  font-weight: bold ;
+  font-size: 40rpx;
+}
+
+.time{
+  margin-top: 10rpx;
+  font-size: 15rpx;
+  font-weight: lighter;
+}
+
+.description{
+  font-size: 25rpx;
+  font-weight: normal;
+  margin-top: 10rpx;
+}
+
+.thirdblock{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.buttonlook{
+  width: 150rpx;
+  height: 50rpx!important;
+  margin-bottom: 50rpx;
+  margin-right: 20rpx;
+  color:black;
+  background-color: orange;
+  font-size: 25rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttomtext{
+  width: 300rpx;
+  font-weight: bold;
+}

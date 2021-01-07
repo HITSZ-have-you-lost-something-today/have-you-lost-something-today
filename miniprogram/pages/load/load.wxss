@@ -1,0 +1,50 @@
+/* pages/load/load.wxss */
+
+.num1{
+  width: 80%;
+  height: 250rpx;
+  margin-top: 400rpx;
+  margin-left: 10%;
+  margin-right:10%;
+  background-color: aqua;
+}
+
+.num2{
+  width: 50rpx;
+  height: 200rpx;
+  background-color:#FFC400;
+  border-radius: 30rpx;
+  text-align: center;
+  align-content: center;
+  margin-top: auto;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.txt{
+  width: 80%;
+  height: 150rpx;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: small;
+  color: #8a8a8a;
+}
+
+.mad{
+  width: 80%;
+  height: 150rpx;
+  margin-top: auto;
+  margin-left: 0rpx;
+  margin-right: auto;
+  font-size: small;
+  color: #8a8a8a;
+}
+
+  .bottomImg{
+    margin-top: 10rpx;
+    width: 33%;
+    height: 50%;
+    border-radius: 0rpx;
+  }

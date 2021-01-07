@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText":"用户授权",
+  "navigationBarTextStyle":"black",
+  "navigationBarBackgroundColor":"#F0F0F4",
+  "backgroundColor":"#F0F0F4",
+  "enablePullDownRefresh":true
+}

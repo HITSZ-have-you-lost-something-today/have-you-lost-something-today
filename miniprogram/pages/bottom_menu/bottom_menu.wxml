@@ -1,0 +1,15 @@
+<!--pages/bottom_menu/bottom_menu.wxml-->
+<view class="bottomrow">
+  <view class="bottomtab">
+    <image class="bottomImg" src="../../images/house.png"></image>
+    <text class="bottomtaptext">首页</text>
+  </view>
+  <view class="bottomtab">
+    <image class="bottomImg" src="../../images/camera.png" ></image>
+    <text class="bottomtaptext">上传</text>
+  </view>
+  <view class="bottomtab">
+    <image class="bottomImg" src="../../images/mine.png"></image>
+    <text class="bottomtaptext">我的</text>
+  </view>
+</view>

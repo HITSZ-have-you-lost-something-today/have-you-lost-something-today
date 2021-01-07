@@ -1,0 +1,27 @@
+<!--pages/Findsquare/Findsquare.wxml-->
+<scroll-view class="roll" scroll-y="true">
+  <view class="box">
+    <block wx:for="{{list}}" wx:for-item="itemName" wx:for-index="id">
+      <view class="largebox">
+        <view class="firstblock">
+          <image class="boximage" src='{{itemName.thingsImage}}'>
+          </image>
+        </view>
+        <view class="secondblock">
+          <view class="boxtext">
+            <text class="headline">{{itemName.thingsName}}</text>
+            <text class="time">{{itemName.lostTime}}</text>
+            <text class="description">{{itemName.thingDescription}}</text>
+          </view>
+        </view>
+        <view class="thirdblock">
+          <button class="buttonlook">
+            <text class="buttomtext">{{itemName.buttomtext}}</text>
+          </button>
+        </view>
+      </view>
+    </block>
+  </view>
+</scroll-view>
+
+<include src="../bottom_menu/bottom_menu.wxml"></include>

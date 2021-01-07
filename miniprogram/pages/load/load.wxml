@@ -1,0 +1,15 @@
+<!--pages/load/load.wxml-->
+<!-- 如果只是展示用户头像昵称，可以使用 <open-data /> 组件 -->
+<open-data type="userNickName"></open-data>
+<!-- 需要使用 button 来授权登录 -->
+<view wx:if="{{canIUse}}" class="num1">
+  <button class="num2" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+<view class="mad">———————————————————————</view>
+</view>
+<view wx:if="{{canIUse}}"class="txt">
+  欢迎使用我们的失物招领小程序，我们需要使用您的一定信息，请放心，我们一定会严格保护您的信息。
+</view>
+<view wx:else>请升级微信版本</view>
+<view>
+  <image class="bottomImg" src="/miniprogram/images/house.png"></image>
+</view>
