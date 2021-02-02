@@ -1,0 +1,15 @@
+<!--pages/mynumber/mynumber.wxml-->
+<view class="bigbox">
+  <view class="firstblock">
+    <text class="number">
+      13044138234
+    </text>
+  </view>
+  <view class="secondblock">
+    <button class="buttonlook">
+      <text class="buttomtext">更改</text>
+    </button>
+  </view>
+
+
+</view>

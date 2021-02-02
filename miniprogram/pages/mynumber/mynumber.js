@@ -1,33 +1,10 @@
-// pages/Findsquare/Findsquare.js
+// pages/mynumber/mynumber.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    list:[
-      {
-        thingsImage:'../../images/camera.png',
-        thingsName:'123',
-        lostTime:'2019年4月2日13：24',
-        thingDescription:'白色封皮，里面是英语笔记',
-        buttomtext:'查看',
-      },
-      {
-        thingsImage:'../../images/add.png',
-        thingsName:'手表',
-        lostTime:'2021年1月7日13：24',
-        thingDescription:'红色表带，皮质……',
-        buttomtext:'查看',
-      },
-      {
-        thingsImage:'../../images/house.png',
-        thingsName:'手链',
-        lostTime:'2021年1月8日13：04',
-        thingDescription:'ifaodaiojoifiofjsd',
-        buttomtext:'查看',
-      }
-    ]
 
   },
 

@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/mynumber/mynumber",
     "pages/Findsquare/Findsquare",
     "pages/bottom_menu/bottom_menu",
     "pages/load/load",

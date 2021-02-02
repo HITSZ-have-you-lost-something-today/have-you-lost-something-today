@@ -1,7 +1,9 @@
 <!--pages/Findsquare/Findsquare.wxml-->
+<image class="headimage" src="../../images/headimage.png">
+</image>
 <scroll-view class="roll" scroll-y="true">
   <view class="box">
-    <block wx:for="{{list}}" wx:for-item="itemName" wx:for-index="id">
+    <block wx:for="{{list}}" wx:for-item="itemName" wx:for-index="id" >
       <view class="largebox">
         <view class="firstblock">
           <image class="boximage" src='{{itemName.thingsImage}}'>
