@@ -1,0 +1,19 @@
+<view class="container" style="flex-direction:column;">
+  <view class="viewImage1">
+    <image class="image1" src="/image/1.jpg" mode="aspectFill"></image>
+  </view>
+  <view class="viewText1" >
+    <text  class="text1">你的东西我来找</text>
+  </view>
+  <view class="viewText2">
+    <text class="text2">——失物招领专业平台——</text>
+  </view>
+  <view class="bottomType">
+    <view class="viewImage2">
+      <image src="/image/file.svg" class="image2"></image>
+    </view>
+    <view class="viewText3">
+     <text class="text3">失物招领</text>
+    </view>
+  </view>
+</view>

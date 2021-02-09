@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/9/9",
+    "pages/3/3",
+    "pages/1/1",
+    "pages/11/11",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffce0a",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+    
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

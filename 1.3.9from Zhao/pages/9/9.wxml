@@ -1,0 +1,28 @@
+<!--pages/9/9.wxml-->
+<view class="container">
+  <block wx:for="{{list}}" wx:for-item="itemName" wx:for-index="id">
+  <view class="largeBox">
+    <view class="box1">
+      <view class="boxImage1">
+        <image class="image1" src="{{itemName.thingsImage1}}">
+        </image>
+      </view>
+      <view class="boxText1">
+        <text class="text1">{{itemName.thingsType1}}</text>
+      </view>
+    </view>
+    <view class="box2">
+      <view class="boxImage2">
+        <image class="image2" src="{{itemName.thingsImage2}}"></image>
+      </view>
+      <view class="boxText2">
+        <text class="text2">{{itemName.thingsType2}}</text>
+      </view>
+    </view>
+  </view>
+  </block>
+</view>
+<view class="bottom"><view class="bottomType"></view></view>
+<view class="bottomText">
+<text style="padding:50px;text-align:center" class="text">没有更多了……</text>
+</view>

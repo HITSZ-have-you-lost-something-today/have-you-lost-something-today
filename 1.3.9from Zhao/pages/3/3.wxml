@@ -1,0 +1,24 @@
+
+<view class="container">
+  <block wx:for="{{list}}" wx:for-item="itemName" wx:for-index="id">
+  <view class="largeBox">
+    <view class="box1">
+      <view class="first1">
+        <image class="boxImage1" src="{{itemName.thingsImage1}}"></image>
+      </view>
+      <view class="second1">
+        <text class="type1" space>{{itemName.thingsType1}}</text>
+      </view>
+    </view>
+    <view class="box2">
+      <view class="first2">
+        <image class="boxImage2" src="{{itemName.thingsImage2}}"></image>
+      </view>
+      <view class="second2">
+        <text class="type2" space>{{itemName.thingsType2}}</text>
+      </view>
+    </view>  
+  </view>
+  </block>
+</view>
+<view class="bottom"><view class="bottomType"></view></view>
