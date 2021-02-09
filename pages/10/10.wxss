@@ -1,0 +1,118 @@
+/* pages/10/10.wxss */
+.firstrow{
+  width:100%;
+  height: 9%;
+  display:flex;
+  flex-direction: row;
+}
+.back2{
+  width:50rpx;
+  height:50rpx;
+  margin-left: 0rpx;
+}
+.picture{
+  height:50rpx;
+  width:50rpx;
+}
+.headline{
+  width:100%;
+  height:9%;
+  margin-left: 33%;
+  margin-right: 35%;
+}
+.secondrow{
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.thirdrow{
+  width:94%;
+  height:20%;
+  background-color: #FFCA05;
+  margin-left: 3%;
+}
+.kind1{
+  margin-left: 40%;
+  margin-right: 40%;
+  width:100%;
+  height:9%;
+}
+.fourthrow{
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.fifthrow{
+  width:100%;
+  height:15%;
+  border-color: gray;
+}
+.weui-input{
+  width:100%;
+  height:15%;
+  margin-left:2%;
+  margin-top: 2%;
+}
+.sixthrow{
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.sevenrow{
+  width:100%;
+  background-color:#fff;
+}
+.textarea{
+  width:96%;
+  height:250rpx;
+  margin-right:2%;
+  margin-left: 2%;
+}
+.eightrow{
+  margin-left: 2%;
+  margin-top: 2%;
+} 
+.ninthrow{
+  width:100%;
+  height:15%;
+  margin-left:2%;
+  margin-top: 2%;
+}
+.weui-input2{
+  width:100%;
+  height:15%;
+  margin-left:2%;
+  margin-top: 2%;
+}
+.tenth{
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.eleventh{
+  width:100%;
+  height:15%;
+}
+.add{
+  width:50rpx;
+  height:50rpx;
+  margin-left: 15rpx;
+}
+.picture2{
+  height:50rpx;
+  width:50rpx;
+}
+.textarea2{
+  width:96%;
+  height:150rpx;
+  margin-right:2%;
+  margin-left: 2%;
+}
+.twelveth{
+  width:94%;
+  height:20%;
+  background-color: #FFCA05;
+  margin-left: 3%;
+}
+.kind2{
+  margin-left: 42%;
+  margin-right: 40%;
+  width:100%;
+  height:9%;
+}

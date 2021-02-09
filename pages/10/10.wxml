@@ -1,0 +1,33 @@
+<!--pages/10/10.wxml-->
+<view class="firstrow">
+  <view class="back2">
+    <image class="picture" src="/images/back.png"></image>
+  </view>
+  <view class="headline">寻物启事</view>
+</view>
+<view class="secondrow">物品类别：</view>
+<view class="thirdrow">
+  <view class="kind1">证件类</view>
+</view>
+<view class="fourthrow">上传时间：</view>
+<view class="fifthrow">
+  <input class="weui-input" type="text" placeholder="2018年  04月  16日" />
+</view>
+<view class="sixthrow">物品描述：</view>
+<view class="sevenrow">
+  <textarea placeholder="校园卡，金色背景..." placeholder-style="color:gray;" class="textarea" />
+  </view>
+<view class="eightrow">联系方式：</view>
+<view class="ninthrow">
+  <input class="weui-input2" type="number" placeholder="13044315797" />
+</view>
+<view class="tenth">上传图片：</view>
+<view class="eleventh">
+  <view class="add">
+    <image class="picture2" src="/images/add.png"></image>
+    </view>
+  <textarea placeholder="添加一张图片吧" placeholder-style="color:gray;"  class="textarea2" />
+</view>
+<view class="twelveth">
+  <view class="kind2">提交</view>
+</view>

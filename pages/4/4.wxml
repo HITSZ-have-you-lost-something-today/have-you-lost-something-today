@@ -1,0 +1,20 @@
+<!--pages/4/4.wxml-->
+<view class="first-row">
+  <view class="back">
+    <image class="backpt" src="/images/back.png"></image>
+  </view>
+  <view class="picture">
+    <image class="notebook" src="/images/notebook.png"></image>
+  </view>
+</view>
+<view class="second-row">
+<view class="note">笔记本</view>
+<input class="time" type="number" placeholder="输入丢失日期吧" />
+</view>
+<view class="section">
+  <textarea placeholder="发条寻物启事吧" placeholder-style="color:gray;"  class="textarea" />
+</view>
+<view class="third-row">
+  <input class="weui-input" type="number" placeholder="输入号码吧" />
+  <button class="buttonsize" type="primary" plain="true">更改号码</button>
+</view>
