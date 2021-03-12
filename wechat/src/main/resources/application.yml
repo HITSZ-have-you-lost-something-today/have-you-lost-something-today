@@ -1,8 +1,0 @@
-spring:
-  jackson:
-    date-format: yyyy-MM-dd HH:mm
-    time-zone: GMT+8
-  profiles:
-    active: dev
-upload:
-  location: /home/huang/images
